@@ -13,4 +13,4 @@ elif sign == "*":
 elif sign == "/":
     print("Division Result of two numbers is: ", num1 / num2)
 else:
-    print("It's an Invalid Operator")
+    print("Choose correct Operator")
