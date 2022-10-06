@@ -5,12 +5,12 @@ num2 = int(input("Enter the 2nd Number: "))
 sign = input("Enter the operation [+, -, *, /]: ")
 
 if sign == "+":
-    print("Addition is = ", num1 + num2)
+    print("Addition Result of two numbers is: ", num1 + num2)
 elif sign == "-":
-    print("Subtracton is = ", num1 - num2)
+    print("Subtracton Result of two numbers is: ", num1 - num2)
 elif sign == "*":
-    print("Multiplication is = ", num1 * num2)
+    print("Multiplication Result of two numbers is: ", num1 * num2)
 elif sign == "/":
-    print("Division is = ", num1 / num2)
+    print("Division Result of two numbers is: ", num1 / num2)
 else:
     print("Choose correct Operator")
