@@ -1,16 +1,16 @@
-#Calculator SOTC
+#Number Calculator SOTC
 
 num1 = int(input("Enter the 1st Number: "))
 num2 = int(input("Enter the 2nd Number: "))
-sign = input("Enter the operation [+, -, *, /]: ")
+indication = input("Enter the operation [+, -, *, /]: ")
 
-if sign == "+":
+if indication == "+":
     print("Addition Result of two numbers is: ", num1 + num2)
-elif sign == "-":
+elif indication == "-":
     print("Subtracton Result of two numbers is: ", num1 - num2)
-elif sign == "*":
+elif indication == "*":
     print("Multiplication Result of two numbers is: ", num1 * num2)
-elif sign == "/":
+elif indication == "/":
     print("Division Result of two numbers is: ", num1 / num2)
 else:
-    print("Choose correct Operator")
+    print("Choose correct Operator : ")
