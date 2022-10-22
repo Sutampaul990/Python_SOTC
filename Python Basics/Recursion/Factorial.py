@@ -1,7 +1,8 @@
-def fact(n):
-    if n==0:
+def fact(num):
+    if num==0:
         return 1
-    return n * fact(n-1)
+    s = num * fact(num-1)
+    return s
 
-n = 5
-print(fact(n))
+num = 5
+print(fact(num))
