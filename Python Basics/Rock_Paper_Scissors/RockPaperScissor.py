@@ -44,8 +44,8 @@ while True:
             print(wrong_stat)
 
         #Continuing/breaking the game
-        play=input("Do you want to play again? (y/n): ").lower()
-        if play=="y":
-            continue
-        else:
+        player=input("Do you want to play again? (y/n): ").lower()
+        if player=="n":
             break
+        else:
+            continue
