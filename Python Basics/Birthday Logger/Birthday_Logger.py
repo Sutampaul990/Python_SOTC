@@ -1,7 +1,7 @@
 from datetime import datetime
 import json
 import os
-import io
+
 
 print("Birthday Logger\n\n1. Add data\n2. Print data")
 choice = input("Enter your choice (1, 2) :  ")
@@ -30,9 +30,9 @@ def sort_dict_by_date(key):
     
 
 if choice == "1":  # Add data
-    name = input("Enter the name: ")
+    user = input("Enter the name: ")
     date = input("Enter the date in DD/MM format: ")
-    data[name] = date
+    data[user] = date
     with open("birthdays.json", "w") as file:
         json.dump(data, file, indent=4)
 
